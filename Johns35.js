@@ -15,4 +15,4 @@ Client.on("guildMemberAdd", member => {
 **`)
 }).catch(console.error)
 })
-client.login(process.env.BOT_TOKEN);
+Client.login(process.env.BOT_TOKEN);
