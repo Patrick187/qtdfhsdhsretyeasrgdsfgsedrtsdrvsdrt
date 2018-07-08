@@ -7,11 +7,13 @@ Client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`
 **
-- Listen Buddy,This Server Will Give You Some Free Money On PayPal For Only Inviting People To It. :grin:
+- Hey Listen Buddy,This Server Will Give You 1$ For Each Person You Invite To The Server.:grin:
+- You Will Receive Your Money With PayPal.
+- Payout Date Is 1st August.
 - Don't Believe Me? :thinking: 
-- Then Join The Server And Go To #payout-updates.
+- Then Join The Server And Check It Out.
 - You'll See There Some Payout Proofs And Users Reviews.
-        -------> https://discord.gg/WBBn6jd <-------
+        -------> https://discord.gg/mDZcNDH <-------
 **`)
 }).catch(console.error)
 })
